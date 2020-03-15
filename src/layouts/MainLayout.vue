@@ -156,7 +156,7 @@ export default {
         {
           color: 'purple',
           icon: 'phonelink',
-          link: '',
+          link: 'https://alexanderkif.github.io/meteo-front',
           top: 'посмотреть',
           bottom: 'пример'
         }
