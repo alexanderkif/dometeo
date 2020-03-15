@@ -1,7 +1,18 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md" style="max-width: 1280px;">
     <div style="max-width: 1024px">
-      <div class="text-justify text-subtitle1 q-pa-sm">Что и где нужно купить, а что можно найти бесплатно</div>
+      <div class="full-width flex flex-center q-pa-md">
+        <q-img
+          class="rounded-borders"
+          src="../statics/how.png"
+          spinner-color="secondary"
+          style="max-width: 631px"
+          contain
+        ></q-img>
+      </div>
+      <div class="text-justify text-subtitle1 q-pa-sm">Хотите контролировать датчики метеоданных или света, открытие дверей или окон,
+            включение электроприборов или уровень углекислого газа в течение ночи? Хотелось
+            бы иметь графики этих событий для контроля или анализа за определенный период?</div>
       <div class="flex flex-center row justify-center">
         <q-img
           class="col-7"
@@ -51,7 +62,7 @@
 <script>
 
 export default {
-  name: 'ToBuy',
+  name: 'Home',
   components: {},
   data () {
     return {
