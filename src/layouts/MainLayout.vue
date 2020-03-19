@@ -74,14 +74,26 @@
         </a>
       </div>
       <div class="q-my-md">
-        <a href="https://s.click.aliexpress.com/e/_eOsb0M" target="_blank" class="text-white">
-          <img src="//ae01.alicdn.com/kf/HTB19_q9yhuTBuNkHFNRq6A9qpXa9/Raspberry-Pi-3-Model-B-Raspberry-Pi-Raspberry-Pi3-B-Pi-3-Pi-3B-With-WiFi.jpg_220x220.jpg"/>
-          <span style="display:block;">Raspberry Pi 3 WiFi & Bluetooth</span>
+        <a href="https://s.click.aliexpress.com/e/_eLK6kT" target="_blank" class="text-white">
+          <img height="240" src="../statics/18650.png"/>
+          <span style="display:block;">аккумулятор 18650</span>
+        </a>
+      </div>
+      <div class="q-my-md">
+        <a href="https://s.click.aliexpress.com/e/_etuV9Z" target="_blank" class="text-white">
+          <img width="190" src="../statics/18650holder.png"/>
+          <span style="display:block;">держатель для аккумулятора 18650</span>
         </a>
       </div>
       <div class="q-my-md">
         <a href="https://s.click.aliexpress.com/e/_etfnOy?bz=190*240" target="_blank">
           <img width="190" height="240" src="https://ae01.alicdn.com/kf/HTB1AVA_elsmBKNjSZFs761XSVXaP/EN_190_240.png"/>
+        </a>
+      </div>
+      <div class="q-my-md">
+        <a href="https://s.click.aliexpress.com/e/_eOsb0M" target="_blank" class="text-white">
+          <img src="//ae01.alicdn.com/kf/HTB19_q9yhuTBuNkHFNRq6A9qpXa9/Raspberry-Pi-3-Model-B-Raspberry-Pi-Raspberry-Pi3-B-Pi-3-Pi-3B-With-WiFi.jpg_220x220.jpg"/>
+          <span style="display:block;">Raspberry Pi 3 WiFi & Bluetooth</span>
         </a>
       </div>
     </q-drawer>
@@ -93,10 +105,7 @@
     <q-footer elevated class="bg-blue-grey-8 text-white">
       <q-toolbar>
         <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo/svg/quasar-logo.svg">
-          </q-avatar>
-          Title
+          &copy; Aleksandr Nikiforov, 2020
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -133,13 +142,6 @@ export default {
           bottom: 'пример'
         },
         {
-          color: 'lime',
-          icon: 'map',
-          link: '/steps',
-          top: 'посмотреть',
-          bottom: 'все шаги'
-        },
-        {
           color: 'green',
           icon: 'attach_money',
           link: '/buy',
@@ -149,7 +151,7 @@ export default {
         {
           color: 'teal',
           icon: 'cloud_queue',
-          link: '',
+          link: '/backend',
           top: 'Подробнее',
           bottom: 'про backend'
         },
@@ -163,7 +165,7 @@ export default {
         {
           color: 'deep-purple',
           icon: 'phone_android',
-          link: '',
+          link: '/frontend',
           top: 'Подробнее',
           bottom: 'про frontend'
         },
