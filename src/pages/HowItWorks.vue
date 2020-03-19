@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
-    <div style="max-width: 1024px">
+    <div class="full-width" style="max-width: 1024px">
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"

@@ -6,7 +6,7 @@
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
         <q-toolbar-title class="text-center">
-          Автономная WiFi метеостанция
+          Автономная WiFi метеостанция на солнечной энергии
         </q-toolbar-title>
 
         <q-btn dense flat round icon="menu" @click="right = !right" />
@@ -14,7 +14,7 @@
     </q-header>
 
     <q-drawer show-if-above v-model="left" side="left" bordered :width="240" content-class="bg-green-2">
-      <div class="q-my-lg q-mx-md flex flex-center"
+      <div class="q-my-md q-mx-md flex flex-center"
         v-for="(button,index) in buttons"
         :key="index"
       >
@@ -127,38 +127,52 @@ export default {
         },
         {
           color: 'yellow',
-          icon: 'school',
-          link: '',
-          top: 'что я научусь',
-          bottom: 'использовать?'
+          icon: 'phonelink',
+          link: 'https://alexanderkif.github.io/meteo-front',
+          top: 'посмотреть',
+          bottom: 'пример'
+        },
+        {
+          color: 'lime',
+          icon: 'map',
+          link: '/steps',
+          top: 'посмотреть',
+          bottom: 'все шаги'
         },
         {
           color: 'green',
           icon: 'attach_money',
           link: '/buy',
           top: 'какие детали',
-          bottom: 'мне купить?'
+          bottom: 'мне нужны?'
+        },
+        {
+          color: 'teal',
+          icon: 'cloud_queue',
+          link: '',
+          top: 'Подробнее',
+          bottom: 'про backend'
         },
         {
           color: 'cyan',
+          icon: 'memory',
+          link: '/arduino',
+          top: 'Подробнее',
+          bottom: 'про arduino'
+        },
+        {
+          color: 'deep-purple',
+          icon: 'phone_android',
+          link: '',
+          top: 'Подробнее',
+          bottom: 'про frontend'
+        },
+        {
+          color: 'purple',
           icon: 'build',
           link: 'https://s.click.aliexpress.com/e/_ePFeIy',
           top: 'какие еще',
           bottom: 'есть датчики?'
-        },
-        {
-          color: 'indigo',
-          icon: 'map',
-          link: '',
-          top: 'посмотреть',
-          bottom: 'все шаги'
-        },
-        {
-          color: 'purple',
-          icon: 'phonelink',
-          link: 'https://alexanderkif.github.io/meteo-front',
-          top: 'посмотреть',
-          bottom: 'пример'
         }
       ]
     }

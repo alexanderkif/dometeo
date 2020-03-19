@@ -1,13 +1,17 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
     <div class="full-width" style="max-width: 1024px">
-      <div class="q-pa-md">Что и где нужно купить, а что можно найти бесплатно</div>
+      <div class="q-pa-md text-center">Последовательность шагов для создания автономной WiFi метеостанции
+        на солнечной энергии.</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"
-          src="../statics/schema-min.png"
+          src="../statics/MeteoSteps.svg"
           spinner-color="secondary"
         ></q-img>
+      </div>
+      <div class="q-pa-md">
+        To Do Front End...
       </div>
     </div>
   </q-page>
@@ -19,7 +23,7 @@
 <script>
 
 export default {
-  name: 'ToBuy',
+  name: 'Steps',
   components: {},
   data () {
     return {
