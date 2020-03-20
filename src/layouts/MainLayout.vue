@@ -19,6 +19,7 @@
         :key="index"
       >
         <q-btn :color="button.color" push class="btn-fixed-width" :to="button.link"
+          @click="activeColor=button.color"
           v-if="button.link.indexOf('http')==-1">
           <div class="row items-center fit no-wrap">
             <q-icon left :name="button.icon" />
@@ -26,6 +27,12 @@
               {{ button.top }}<br>{{ button.bottom }}
             </div>
           </div>
+          <div
+            round
+            v-if="activeColor==button.color"
+            :class="`bg-${activeColor} shadow-1`"
+            style="position:absolute; width: 10px; height: 10px; right: -15px; border-radius: 50%;"
+          ></div>
         </q-btn>
         <q-btn :color="button.color" push class="btn-fixed-width" type="a" :href="button.link"
           v-else target="_blank">
@@ -81,7 +88,10 @@
       </div>
       <div class="q-my-md">
         <a href="https://s.click.aliexpress.com/e/_etuV9Z" target="_blank" class="text-white">
-          <img width="190" src="../statics/18650holder.png"/>
+          <q-img
+            src="../statics/18650holder.png"
+            spinner-color="secondary"
+          ></q-img>
           <span style="display:block;">держатель для аккумулятора 18650</span>
         </a>
       </div>
@@ -98,7 +108,7 @@
       </div>
     </q-drawer>
 
-    <q-page-container class="flex flex-center bg-blue-grey-1">
+    <q-page-container :class="`flex flex-center bg-${activeColor}-1`">
       <router-view class="text-blue-grey-10" />
     </q-page-container>
 
@@ -119,6 +129,7 @@ export default {
     return {
       left: false,
       right: false,
+      activeColor: 'red',
       buttons: [
         {
           color: 'red',
