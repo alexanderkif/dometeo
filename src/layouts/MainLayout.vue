@@ -189,6 +189,9 @@ export default {
         }
       ]
     }
+  },
+  created () {
+    this.activeColor = this.buttons.filter(btn => btn.link === this.$route.path)[0].color
   }
 }
 </script>
