@@ -9,70 +9,38 @@
           spinner-color="secondary"
         ></q-img>
       </div>
-      <div class="q-pa-md">Купить:
-        <ol>
-          <li>плату
-            <a href="https://s.click.aliexpress.com/e/_ePopIU" target="_blank" class="text-blue-grey-10">
-              <span> Wemos D1 Mini V3.0 </span>
-              <q-img
-                src="../statics/wemos.png"
-                spinner-color="secondary"
-                style="max-width: 100px"
-                contain
-              ></q-img>
-            </a>
-          </li>
-          <li>датчик температуры, влажности и давления
-            <a href="https://s.click.aliexpress.com/e/_etQNTm" target="_blank" class="text-blue-grey-10">
-              <span> BME 280 </span>
-              <q-img
-                src="../statics/bme280.png"
-                spinner-color="secondary"
-                style="max-width: 100px"
-                contain
-              ></q-img>
-            </a>
-            <span> (или другие нужные вам датчики)</span>
-          </li>
-          <li>
-            <a href="https://s.click.aliexpress.com/e/_eLK6kT" target="_blank" class="text-blue-grey-10">
-              <span> аккумулятор 18650 </span>
-              <q-img
-                src="../statics/18650.png"
-                spinner-color="secondary"
-                style="max-height: 100px; max-width: 100px"
-                contain
-              ></q-img>
-            </a>
-          </li>
-          <li>
-            <a href="https://s.click.aliexpress.com/e/_etuV9Z" target="_blank" class="text-blue-grey-10">
-              <span> держатель для аккумулятора 18650 </span>
-              <q-img
-                src="../statics/18650holder.png"
-                spinner-color="secondary"
-                style="max-height: 100px; max-width: 100px"
-                contain
-              ></q-img>
-            </a>
-            <span> для удобства и возможности горячей замены на случай длительного отсутствия солнечных дней </span>
-          </li>
-          <li>
-            <a href="https://s.click.aliexpress.com/e/_etk1jA" target="_blank" class="text-blue-grey-10">
-              <span>солнечную панель </span>
-              <q-img
-                src="../statics/solar.png"
-                spinner-color="secondary"
-                style="max-width: 100px"
-                contain
-              ></q-img>
-            </a>
-            <span> (или две для последовательного включения с целью увеличения напряжения, если много пасмурных дней)</span>
-          </li>
-        </ol>
+      <div class="q-pa-md">
+        Купить:
       </div>
-      <div class="q-pa-md">Cопротивление 125 кОм (подключен ко входу A0), и три сопротивления 10 кОм, транзисторы и диод проще купить в
-        ближайшем магазине радиодеталей. Полевые транзисторы P0603BDG также можно выпаять из неисправных материнских плат.</div>
+      <div class="q-pa-md">
+        <q-btn
+          v-for="(good, index) in goods"
+          :key="index"
+          flat
+          class="full-width"
+          type="a"
+          target="_blank"
+          style="height: 100px;"
+          :href="good.link"
+          >
+          <div class="row items-center fit no-wrap">
+            <div style="width: 120px;">
+              <img :src="good.img" style="max-height: 90px; max-width: 120px;" />
+            </div>
+            <div>
+              <div class="text-left text-bold full-width q-pl-lg">
+                {{ good.title }}
+              </div>
+              <div class="text-left text-lowercase full-width q-pl-lg">
+                {{ good.text }}
+              </div>
+            </div>
+          </div>
+        </q-btn>
+      </div>
+      <div class="q-pa-md">Cопротивление 125 кОм (подключен ко входу A0), и три сопротивления 10 кОм, 3 транзистора P0603BDG
+        и любой диод проще купить в ближайшем магазине радиодеталей. Полевые транзисторы P0603BDG также можно выпаять
+        из неисправных материнских плат.</div>
     </div>
   </q-page>
 </template>
@@ -87,7 +55,38 @@ export default {
   components: {},
   data () {
     return {
-      visible: false
+      goods: [
+        {
+          link: 'https://s.click.aliexpress.com/e/_ePopIU',
+          img: '../statics/wemos.png',
+          title: 'Wemos D1 Mini V3.0',
+          text: 'плата контроллер'
+        },
+        {
+          link: 'https://s.click.aliexpress.com/e/_etQNTm',
+          img: '../statics/bme280.png',
+          title: 'BME 280',
+          text: 'датчик температуры, влажности и давления'
+        },
+        {
+          link: 'https://s.click.aliexpress.com/e/_eLK6kT',
+          img: '../statics/18650.png',
+          title: 'аккумулятор 18650',
+          text: 'можно взять из старого ноутбука'
+        },
+        {
+          link: 'https://s.click.aliexpress.com/e/_etuV9Z',
+          img: '../statics/18650holder.png',
+          title: 'держатель для аккумулятора 18650',
+          text: 'для удобства и возможности горячей замены на случай длительного отсутствия солнечных дней'
+        },
+        {
+          link: 'https://s.click.aliexpress.com/e/_etk1jA',
+          img: '../statics/solar.png',
+          title: 'солнечную панель',
+          text: 'или две для последовательного включения с целью увеличения напряжения, если много пасмурных дней'
+        }
+      ]
     }
   },
   created () {
