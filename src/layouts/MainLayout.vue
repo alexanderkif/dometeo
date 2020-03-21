@@ -19,7 +19,7 @@
         :key="index"
       >
         <q-btn :color="button.color" push class="btn-fixed-width" :to="button.link"
-          @click="activeColor=button.color"
+          @click="activeColor=button.color; right=true"
           v-if="button.link.indexOf('http')==-1">
           <div class="row items-center fit no-wrap">
             <q-icon left :name="button.icon" />
@@ -57,9 +57,11 @@
 
     <q-footer elevated class="bg-blue-grey-8 text-white">
       <q-toolbar>
+        <q-btn dense flat round icon="menu" @click="left = !left" />
         <q-toolbar-title>
           &copy; Aleksandr Nikiforov, 2020
         </q-toolbar-title>
+        <q-btn dense flat round icon="menu" @click="right = !right" />
       </q-toolbar>
     </q-footer>
 

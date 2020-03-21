@@ -34,7 +34,7 @@
     </div>
     <div class="q-my-md">
       <a href="https://s.click.aliexpress.com/e/_eLK6kT" target="_blank" class="text-white">
-        <img height="240" src="../statics/18650.png"/>
+        <img width="190" src="../statics/18650.png"/>
         <span style="display:block;">аккумулятор 18650</span>
       </a>
     </div>

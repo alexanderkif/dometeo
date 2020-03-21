@@ -20,7 +20,7 @@
           class="full-width"
           type="a"
           target="_blank"
-          style="height: 100px;"
+          style="min-height: 100px;"
           :href="good.link"
           >
           <div class="row items-center fit no-wrap">
@@ -58,31 +58,31 @@ export default {
       goods: [
         {
           link: 'https://s.click.aliexpress.com/e/_ePopIU',
-          img: '../statics/wemos.png',
+          img: './statics/wemos.png',
           title: 'Wemos D1 Mini V3.0',
           text: 'плата контроллер'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etQNTm',
-          img: '../statics/bme280.png',
+          img: './statics/bme280.png',
           title: 'BME 280',
           text: 'датчик температуры, влажности и давления'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_eLK6kT',
-          img: '../statics/18650.png',
+          img: './statics/18650.png',
           title: 'аккумулятор 18650',
           text: 'можно взять из старого ноутбука'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etuV9Z',
-          img: '../statics/18650holder.png',
+          img: './statics/18650holder.png',
           title: 'держатель для аккумулятора 18650',
           text: 'для удобства и возможности горячей замены на случай длительного отсутствия солнечных дней'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etk1jA',
-          img: '../statics/solar.png',
+          img: './statics/solar.png',
           title: 'солнечную панель',
           text: 'или две для последовательного включения с целью увеличения напряжения, если много пасмурных дней'
         }
