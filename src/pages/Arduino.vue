@@ -4,7 +4,10 @@
       <div class="q-pa-md">
         <ol>
           <li>Установите Arduino IDE</li>
-          <li>Скачайте <a href="https://github.com/alexanderkif/meteo/blob/master/arduino/MeteoBasicHttpsClient.ino">скетч</a> </li>
+          <li>
+            <a href="https://github.com/alexanderkif/meteo/blob/master/arduino/MeteoBasicHttpsClient.ino" target="_blank" class="text-blue-grey-8">
+            Скачайте скетч</a>
+          </li>
           <li>Исправьте своими данными<br>
             <code>const String mySSID = "mySSID",<br>
               myPass = "myPass",<br>
@@ -29,7 +32,8 @@
       <div class="q-pa-md">
         Далее нужно собрать схему для автономной работы и возможности установки метеостанции вне дома.
         Где и какие детали взять смотрите в меню "КАКИЕ ДЕТАЛИ МНЕ НУЖНЫ?". Для сборки можно использовать
-        пайку или отладочные платы для беспаечного монтажа и соединительные провода для Arduino.
+        пайку или <a href="https://s.click.aliexpress.com/e/_eKihHx" target="_blank" class="text-blue-grey-8">
+        отладочные платы для беспаечного монтажа и соединительные провода для Arduino</a> .
       </div>
       <div class="q-pa-md">
         Не забудьте установить перемычку D0-RST для выхода платы из режима глубокого сна.

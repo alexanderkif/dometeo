@@ -54,8 +54,13 @@
     </div>
     <div class="q-my-md">
       <a href="https://s.click.aliexpress.com/e/_eOsb0M" target="_blank" class="text-white">
-        <img src="//ae01.alicdn.com/kf/HTB19_q9yhuTBuNkHFNRq6A9qpXa9/Raspberry-Pi-3-Model-B-Raspberry-Pi-Raspberry-Pi3-B-Pi-3-Pi-3B-With-WiFi.jpg_220x220.jpg"/>
+        <img width="190" src="//ae01.alicdn.com/kf/HTB19_q9yhuTBuNkHFNRq6A9qpXa9/Raspberry-Pi-3-Model-B-Raspberry-Pi-Raspberry-Pi3-B-Pi-3-Pi-3B-With-WiFi.jpg_220x220.jpg"/>
         <span style="display:block;">Raspberry Pi 3 WiFi & Bluetooth</span>
+      </a>
+    </div>
+    <div class="q-my-md">
+      <a href="https://s.click.aliexpress.com/e/_eKrjst?bz=190*240" target="_parent">
+        <img width="190" height="240" src="//ae01.alicdn.com/kf/Hbb42f9322b204bb6886bf92f59eca3c1O.png"/>
       </a>
     </div>
   </div>
