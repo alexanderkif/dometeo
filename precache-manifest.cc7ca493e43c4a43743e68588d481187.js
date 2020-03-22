@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "49bc093dff27bf2f78c1",
+    "revision": "5a0debe3e3d0b7f6f7ba",
     "url": "css/2.2de5df56.css"
   },
   {
-    "revision": "dcad4ceac8d3e8d745e1",
+    "revision": "cd3a5348049c185a47c6",
     "url": "css/app.66d806c5.css"
   },
   {
@@ -100,16 +100,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/solar.427b8c36.png"
   },
   {
-    "revision": "fa82693dab09ca74e19b188ae08daf70",
-    "url": "img/wemos.fa82693d.png"
+    "revision": "292791fb3e37fbd89806637dc84cb481",
+    "url": "img/wemos.292791fb.png"
   },
   {
-    "revision": "144da5cb34db9c0f6d74ce8cf6eff402",
+    "revision": "2b84b8e9e7c1b0afd1c1df8751773f0a",
     "url": "index.html"
   },
   {
-    "revision": "49bc093dff27bf2f78c1",
-    "url": "js/2.49bc093d.js"
+    "revision": "5a0debe3e3d0b7f6f7ba",
+    "url": "js/2.5a0debe3.js"
   },
   {
     "revision": "023a03d41cdf28f08e56",
@@ -132,16 +132,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/7.825b6942.js"
   },
   {
-    "revision": "4209e99a138f4cda08c8",
-    "url": "js/8.4209e99a.js"
+    "revision": "743560e18059a69b58a2",
+    "url": "js/8.743560e1.js"
   },
   {
     "revision": "8370ccbedd801eca4970",
     "url": "js/9.8370ccbe.js"
   },
   {
-    "revision": "dcad4ceac8d3e8d745e1",
-    "url": "js/app.06f5fc55.js"
+    "revision": "cd3a5348049c185a47c6",
+    "url": "js/app.86c7f856.js"
   },
   {
     "revision": "f29ffc8f002e200d19b2",
@@ -198,6 +198,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8b675aaf543a7429a8c93e696c72ef6",
     "url": "statics/desktop-tv.png"
+  },
+  {
+    "revision": "d6369874ee14c27a7eb31c60c3e0a09f",
+    "url": "statics/diod.png"
   },
   {
     "revision": "a7c007e8831a0a2c41c1bf5fd36b9016",
@@ -268,6 +272,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "statics/mobile-vert-lg.png"
   },
   {
+    "revision": "e83c32735a2ae34c5b491859b1abd493",
+    "url": "statics/mosfet.png"
+  },
+  {
+    "revision": "6e41eadb70120ea3760af85266a4ff06",
+    "url": "statics/resistor.png"
+  },
+  {
     "revision": "fcbad448530bda88e79b96bc01b10a45",
     "url": "statics/schema-min.png"
   },
@@ -276,7 +288,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "statics/solar.png"
   },
   {
-    "revision": "fa82693dab09ca74e19b188ae08daf70",
+    "revision": "292791fb3e37fbd89806637dc84cb481",
     "url": "statics/wemos.png"
   }
 ]);
