@@ -6,8 +6,12 @@
         <q-btn dense flat round icon="menu" @click="left = !left" />
 
         <q-toolbar-title class="text-center">
+          <q-avatar>
+            <img src="../statics/app-logo-128x128.png">
+          </q-avatar>
           Автономная WiFi метеостанция на солнечной энергии
         </q-toolbar-title>
+        <LangSwitcher />
 
         <q-btn dense flat round icon="menu" @click="right = !right" />
       </q-toolbar>
@@ -70,10 +74,12 @@
 
 <script>
 import Advertising from '../components/Advertising'
+import LangSwitcher from '../components/LangSwitcher'
 
 export default {
   components: {
-    Advertising
+    Advertising,
+    LangSwitcher
   },
   data () {
     return {

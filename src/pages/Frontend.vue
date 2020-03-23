@@ -21,7 +21,7 @@
         основанном на <a href="https://vuejs.org/" target="_blank" :class="aClass">Vue.js</a>.
       </div>
       <div class="q-pa-md">
-        Вы можете <a href="https://github.com/alexanderkif/meteo-front" :class="aClass">форкнуть его в свой GitHub
+        Вы можете <a href="https://github.com/alexanderkif/meteo-front" target="_blank" :class="aClass">форкнуть его в свой GitHub
         или клонировать на свой локальный компьютер</a>. Изменить в файле data.json значение urlAPI
         адресом своего бэкенда. Установить зависимости, выполнив в консоли
         <code :class="codeClass">npm install</code>.

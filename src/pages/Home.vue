@@ -1,10 +1,7 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
     <div class="full-width" style="max-width: 1024px">
-      <div class="q-pa-md">Хотите легко и играючи познакомить себя или вашего ребенка с современным
-        веб-программированием с бэкендом на Node.js и фронтендом на Vue / Quasar, а также с
-        микроконтроллерами ардуино? Вы приблизитесь к пониманию, если повторите этот проект наружной
-        автономной Wi-Fi метеостанции на солнечных батареях или реализуете эту задумку со своими датчиками.</div>
+      <div class="q-pa-md">{{ $t('home') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"
