@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.343cf15ffc5e96c4318c3ac2fce22588.js"
+  "precache-manifest.7bb584cd74badee77c4fb025c02f26e7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "dometeo"});

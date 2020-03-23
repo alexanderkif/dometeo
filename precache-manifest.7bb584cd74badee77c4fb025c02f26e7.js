@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcbe2579a1993cc25e51",
-    "url": "css/2.2de5df56.css"
+    "revision": "05222a1b2327f3a2294b",
+    "url": "css/2.f34d7bda.css"
   },
   {
-    "revision": "1161264b66e7515ea6c8",
+    "revision": "a753a379c583f6218bc2",
     "url": "css/app.66d806c5.css"
   },
   {
@@ -64,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/MeteoSteps.5ae9ff4b.svg"
   },
   {
+    "revision": "f0cf7b44112908b21ba582da94c7a496",
+    "url": "img/app-logo-128x128.f0cf7b44.png"
+  },
+  {
     "revision": "29c72afc7f5f452c46d6b0e2d33ac01b",
     "url": "img/arduino.29c72afc.svg"
   },
@@ -104,16 +108,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/wemos.292791fb.png"
   },
   {
-    "revision": "f354efb4aaf0aa679da26e2ed5af07c9",
+    "revision": "1723ce0f9dd9f6797e9ede7158b4d6ba",
     "url": "index.html"
   },
   {
-    "revision": "bcbe2579a1993cc25e51",
-    "url": "js/2.bcbe2579.js"
+    "revision": "05222a1b2327f3a2294b",
+    "url": "js/2.05222a1b.js"
   },
   {
-    "revision": "023a03d41cdf28f08e56",
-    "url": "js/3.023a03d4.js"
+    "revision": "c2e7da4eebdfdacf75a6",
+    "url": "js/3.c2e7da4e.js"
   },
   {
     "revision": "43723cc3251749b0f061",
@@ -136,16 +140,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/8.743560e1.js"
   },
   {
-    "revision": "8370ccbedd801eca4970",
-    "url": "js/9.8370ccbe.js"
+    "revision": "4a9dee7ce07a688eb718",
+    "url": "js/9.4a9dee7c.js"
   },
   {
-    "revision": "1161264b66e7515ea6c8",
-    "url": "js/app.48bdbb5f.js"
+    "revision": "a753a379c583f6218bc2",
+    "url": "js/app.0ee662fc.js"
   },
   {
-    "revision": "f29ffc8f002e200d19b2",
-    "url": "js/vendor.f29ffc8f.js"
+    "revision": "6c8ce873bf4b8a3d5d59",
+    "url": "js/vendor.6c8ce873.js"
   },
   {
     "revision": "f550a4ee0e7cb37070e7982238859892",
