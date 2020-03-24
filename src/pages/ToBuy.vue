@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
     <div class="full-width" style="max-width: 1024px">
-      <div class="q-pa-md text-center text-h6">Что и где нужно купить, а что можно найти бесплатно</div>
+      <div class="q-pa-md text-center text-h6">{{ $t('buy.h1') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"
@@ -10,7 +10,7 @@
         ></q-img>
       </div>
       <div class="q-pa-md text-h6">
-        Купить:
+        {{ $t('buy.h2') }}
       </div>
       <div class="q-pa-md">
         <q-btn
@@ -30,10 +30,10 @@
             </div>
             <div>
               <div class="text-left text-bold text-uppercase full-width q-pl-lg">
-                {{ good.title }}
+                {{ $t(`buy.goods[${index}].title`) }}
               </div>
               <div class="text-left full-width q-pl-lg">
-                {{ good.text }}
+                {{ $t(`buy.goods[${index}].text`) }}
               </div>
             </div>
           </div>
@@ -56,51 +56,35 @@ export default {
       goods: [
         {
           link: 'https://s.click.aliexpress.com/e/_ePopIU',
-          img: './statics/wemos.png',
-          title: 'Wemos D1 Mini V3.0',
-          text: 'Основная плата-микроконтроллер со встроенным WiFi модулем.'
+          img: './statics/wemos.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etQNTm',
-          img: './statics/bme280.png',
-          title: 'BME 280',
-          text: 'Датчик температуры, влажности и давления.'
+          img: './statics/bme280.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_eLK6kT',
-          img: './statics/18650.png',
-          title: 'Аккумулятор 18650',
-          text: 'Можно взять из старого ноутбука.'
+          img: './statics/18650.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etuV9Z',
-          img: './statics/18650holder.png',
-          title: 'Держатель для аккумулятора 18650',
-          text: 'Для удобства и возможности горячей замены на случай длительного отсутствия солнечных дней.'
+          img: './statics/18650holder.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etk1jA',
-          img: './statics/solar.png',
-          title: 'Солнечная панель',
-          text: 'Или две для последовательного включения с целью увеличения напряжения, если много пасмурных дней.'
+          img: './statics/solar.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_etuu9n',
-          img: './statics/resistor.png',
-          title: 'Cопротивления (резисторы)',
-          text: 'Один резистор на 120-130 кОм (у меня 125 кОм, подключен ко входу A0), и три сопротивления 10 кОм. Используйте последовательное и параллельное соединение резисторов.'
+          img: './statics/resistor.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_esxEPx',
-          img: './statics/diod.png',
-          title: 'Диод (любой)',
-          text: 'Резисторы, диод и мосфеты можно купить в ближайшем магазине радиодеталей или выпаять из старых радио плат.'
+          img: './statics/diod.png'
         },
         {
           link: 'https://s.click.aliexpress.com/e/_eMxe0N',
-          img: './statics/mosfet.png',
-          title: 'MOSFET P0603BDG',
-          text: 'Можно использовать любые другие полевые транзисторы с n-каналом и открытием 3V. Их также можно выпаять из неисправных материнских плат.'
+          img: './statics/mosfet.png'
         }
       ]
     }

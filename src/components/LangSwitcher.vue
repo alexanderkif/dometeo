@@ -1,5 +1,5 @@
 <template>
-  <q-btn flat rounded size="sm" :label="lang" @click="chooseLang" />
+  <q-btn flat rounded size="md" :label="lang" @click="chooseLang" />
 </template>
 
 <script>

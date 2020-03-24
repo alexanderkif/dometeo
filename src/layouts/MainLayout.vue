@@ -9,7 +9,7 @@
           <q-avatar>
             <img src="../statics/app-logo-128x128.png">
           </q-avatar>
-          Автономная WiFi метеостанция на солнечной энергии
+          {{ $t('main.title') }}
         </q-toolbar-title>
         <LangSwitcher />
 
@@ -28,7 +28,7 @@
           <div class="row items-center fit no-wrap">
             <q-icon left :name="button.icon" />
             <div class="text-center full-width">
-              {{ button.top }}<br>{{ button.bottom }}
+              {{ $t(`main.nav${index}[0]`) }}<br>{{ $t(`main.nav${index}[1]`) }}
             </div>
           </div>
           <div
@@ -43,7 +43,7 @@
           <div class="row items-center fit no-wrap">
             <q-icon left :name="button.icon" />
             <div class="text-center full-width">
-              {{ button.top }}<br>{{ button.bottom }}
+              {{ $t(`main.nav${index}[0]`) }}<br>{{ $t(`main.nav${index}[1]`) }}
             </div>
           </div>
         </q-btn>
@@ -90,58 +90,42 @@ export default {
         {
           color: 'red',
           icon: 'important_devices',
-          link: '/',
-          top: 'что здесь',
-          bottom: 'происходит?'
+          link: '/'
         },
         {
           color: 'orange',
           icon: 'help',
-          link: '/how',
-          top: 'как это',
-          bottom: 'работает?'
+          link: '/how'
         },
         {
           color: 'yellow',
           icon: 'phonelink',
-          link: 'https://alexanderkif.github.io/meteo-front',
-          top: 'посмотреть',
-          bottom: 'пример'
+          link: 'https://alexanderkif.github.io/meteo-front'
         },
         {
           color: 'green',
           icon: 'attach_money',
-          link: '/buy',
-          top: 'какие детали',
-          bottom: 'мне нужны?'
+          link: '/buy'
         },
         {
           color: 'teal',
           icon: 'cloud_queue',
-          link: '/backend',
-          top: 'Подробнее',
-          bottom: 'про backend'
+          link: '/backend'
         },
         {
           color: 'cyan',
           icon: 'memory',
-          link: '/arduino',
-          top: 'Подробнее',
-          bottom: 'про arduino'
+          link: '/arduino'
         },
         {
           color: 'deep-purple',
           icon: 'phone_android',
-          link: '/frontend',
-          top: 'Подробнее',
-          bottom: 'про frontend'
+          link: '/frontend'
         },
         {
           color: 'purple',
           icon: 'build',
-          link: 'https://s.click.aliexpress.com/e/_ePFeIy',
-          top: 'какие еще',
-          bottom: 'есть датчики?'
+          link: 'https://s.click.aliexpress.com/e/_ePFeIy'
         }
       ]
     }

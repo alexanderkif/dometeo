@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
     <div class="full-width" style="max-width: 1024px">
-      <div class="q-pa-md">{{ $t('home') }}</div>
+      <div class="q-pa-md">{{ $t('home.h1') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"
@@ -11,9 +11,7 @@
           contain
         ></q-img>
       </div>
-      <div class="q-pa-md">Или вы хотите контролировать датчики метеоданных или света, открытие дверей или окон,
-        включение электроприборов или уровень углекислого газа в течение ночи? Хотелось
-        бы иметь графики этих событий для контроля или анализа за определенный период?</div>
+      <div class="q-pa-md">{{ $t('home.h2') }}</div>
       <div class="flex flex-center row justify-center">
         <q-img
           class="col-7"
@@ -28,10 +26,7 @@
           style="max-width: 385px"
         ></q-img>
       </div>
-      <div class="q-pa-md">А может собираетесь построить зависимость температуры в помещениях вашего
-        энергосберегающего умного дома от направления ветра и температуры снаружи?</div>
-      <div class="q-pa-md">Или хотите узнать, закрытие какой из межкомнатных дверей останавливает конвекцию
-        воздуха внутри дома и уменьшает затраты на отопление?</div>
+      <div class="q-pa-md">{{ $t('home.h3') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           src="../statics/desktop-tv.png"
@@ -39,9 +34,7 @@
           style="max-width: 801px;"
         ></q-img>
       </div>
-      <div class="q-pa-md">Если спаять пару датчиков и немного их запрограммировать,
-        то можно записать показания этих датчиков в базу данных для анализа,
-        ну или просто наблюдать и делать прогнозы</div>
+      <div class="q-pa-md">{{ $t('home.h4') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"

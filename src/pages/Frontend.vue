@@ -2,7 +2,7 @@
   <q-page class="flex flex-center full-width q-pa-md text-subtitle1 text-justify" style="max-width: 1280px;">
     <div class="full-width" style="max-width: 1024px">
       <div class="q-pa-md">
-        Вы можете написать свой вариант фронтенда. Вот варианты запросов к приложению бекенда:
+        {{ $t('front.h1') }}
         <ul style="list-style: none;">
           <li>
             <code :class="codeClass">/data?start=START_DATE&finish=FINISH_DATE&tframe=TFRAME&step=STEP</code> - universal request to backend
@@ -16,28 +16,27 @@
         </ul>
       </div>
       <div class="q-pa-md">
-        В <b>примере</b> Frontend реализован на
+        {{ $t('front.h2[0]') }}
         <a href="https://quasar.dev/" target="_blank" :class="aClass">Quasar Framework</a>,
-        основанном на <a href="https://vuejs.org/" target="_blank" :class="aClass">Vue.js</a>.
+        {{ $t('front.h2[1]') }}
+        <a href="https://vuejs.org/" target="_blank" :class="aClass">Vue.js</a>.
       </div>
       <div class="q-pa-md">
-        Вы можете <a href="https://github.com/alexanderkif/meteo-front" target="_blank" :class="aClass">форкнуть его в свой GitHub
-        или клонировать на свой локальный компьютер</a>. Изменить в файле data.json значение urlAPI
-        адресом своего бэкенда. Установить зависимости, выполнив в консоли
-        <code :class="codeClass">npm install</code>.
-        И собрать свой собственный бекенд командой
+        {{ $t('front.h3[0]') }}
+        <a href="https://github.com/alexanderkif/meteo-front" target="_blank" :class="aClass">{{ $t('front.h3[1]') }}</a>{{ $t('front.h3[2]') }}
+        <code :class="codeClass">npm install</code>{{ $t('front.h3[3]') }}
         <code :class="codeClass">npm run build</code>
-        для создания SPA приложения, или
+        {{ $t('front.h3[4]') }}
         <code :class="codeClass">npm run build:pwa</code>
-        для создания PWA приложения. После этого можем выполнить
+        {{ $t('front.h3[5]') }}
         <code :class="codeClass">npm run deploy</code>
-        для размещения на gh-pages SPA приложения, или
+        {{ $t('front.h3[6]') }}
         <code :class="codeClass">npm run deploy:pwa</code>
-        для размещения на gh-pages PWA приложения.
+        {{ $t('front.h3[7]') }}
       </div>
       <div class="q-pa-md">
-        Или скопировать приложение на ваш веб сервер из папки
-        <code :class="codeClass">dist/spa</code> или <code :class="codeClass">dist/pwa</code> соответственно.
+        {{ $t('front.h4[0]') }}
+        <code :class="codeClass">dist/spa</code>{{ $t('front.h4[1]') }}<code :class="codeClass">dist/pwa</code>{{ $t('front.h4[2]') }}
       </div>
     </div>
   </q-page>

@@ -3,24 +3,21 @@
     <div class="full-width" style="max-width: 1024px">
       <div class="q-pa-md">
         <ol>
-          <li>Установите Arduino IDE</li>
-          <li>
-            <a href="https://github.com/alexanderkif/meteo/blob/master/arduino/MeteoBasicHttpsClient.ino" target="_blank" class="text-blue-grey-8">
-            Скачайте скетч</a>
-          </li>
-          <li>Исправьте своими данными<br>
+          <li>{{ $t('arduino.li1') }}</li>
+          <li>{{ $t('arduino.li2') }}</li>
+          <li>{{ $t('arduino.li3') }}<br>
             <code>const String mySSID = "mySSID",<br>
               myPass = "myPass",<br>
               myKey = "mySuperKey",<br>
               myUrl = "https://myproject.myaccount.now.sh/data";
               </code>
               </li>
-          <li>Подключите плату Wemos D1 mini к компьютеру полным четырехпроводным проводом USB</li>
-          <li>Прошейте плату Wemos D1 mini загруженным скетчем</li>
-          <li>Плата сразу должна начать отправлять данные на сервер с Backend приложением</li>
+          <li>{{ $t('arduino.li4') }}</li>
+          <li>{{ $t('arduino.li5') }}</li>
+          <li>{{ $t('arduino.li6') }}</li>
         </ol>
       </div>
-      <div class="q-pa-md text-center">Алгоритм работы программы, прошитой в Ардуино.</div>
+      <div class="q-pa-md text-center">{{ $t('arduino.h1') }}</div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
           class="rounded-borders"
@@ -30,14 +27,10 @@
         ></q-img>
       </div>
       <div class="q-pa-md">
-        Далее нужно собрать схему для автономной работы и возможности установки метеостанции вне дома.
-        Где и какие детали взять смотрите в меню "КАКИЕ ДЕТАЛИ МНЕ НУЖНЫ?". Для сборки можно использовать
-        пайку или <a href="https://s.click.aliexpress.com/e/_eKihHx" target="_blank" class="text-blue-grey-8">
-        отладочные платы для беспаечного монтажа и соединительные провода для Arduino</a> .
+        {{ $t('arduino.h2[0]') }}<a href="https://s.click.aliexpress.com/e/_eKihHx" target="_blank" class="text-blue-grey-8">{{ $t('arduino.h2[1]') }}</a> .
       </div>
       <div class="q-pa-md">
-        Не забудьте установить перемычку D0-RST для выхода платы из режима глубокого сна.
-        На время прошивки платы не забывайте разрывать эту перемычку.
+        {{ $t('arduino.h3') }}
       </div>
       <div class="full-width flex flex-center q-pa-md">
         <q-img
@@ -47,10 +40,7 @@
         ></q-img>
       </div>
       <div class="q-pa-md">
-        Плата стартует, отправляет данные и засыпает на 5 минут.
-        В целях экономии энергии батареи полевой транзистор на выводе D6 отключает питание датчика BME280.
-        Заряд аккумулятора 18650 контролируется входом A0. Если напряжение на батарее превышает 4.2V,
-        выход D7 разрывает цепь заряда аккумулятора от солнечной панели.
+        {{ $t('arduino.h4') }}
       </div>
     </div>
   </q-page>
