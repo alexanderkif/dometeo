@@ -9,7 +9,7 @@
             <code>const String mySSID = "mySSID",<br>
               myPass = "myPass",<br>
               myKey = "mySuperKey",<br>
-              myUrl = "https://myproject.myaccount.now.sh/data";
+              myUrl = "https://myproject. myaccount.now.sh/data";
               </code>
               </li>
           <li>{{ $t('arduino.li4') }}</li>

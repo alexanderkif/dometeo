@@ -5,7 +5,7 @@
         {{ $t('front.h1') }}
         <ul style="list-style: none;">
           <li>
-            <code :class="codeClass">/data?start=START_DATE&finish=FINISH_DATE&tframe=TFRAME&step=STEP</code> - universal request to backend
+            <code :class="codeClass">/data?start=START_DATE &finish=FINISH_DATE &tframe=TFRAME &step=STEP</code> - universal request to backend
           </li>
           <li>
             <code :class="codeClass">/data</code> - to get 3 hours datasets
