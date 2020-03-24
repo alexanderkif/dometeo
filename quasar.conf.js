@@ -106,7 +106,7 @@ module.exports = function (ctx) {
         short_name: 'DoMeteo',
         description: 'Repeat this project for free. Use Node JS as a backend, Quasar (Vue) as a frontend.',
         display: 'standalone',
-        orientation: 'portrait',
+        orientation: 'any',
         background_color: '#ffffff',
         theme_color: '#027be3',
         icons: [
