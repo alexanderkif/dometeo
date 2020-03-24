@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05222a1b2327f3a2294b",
-    "url": "css/2.f34d7bda.css"
+    "revision": "98ebbbf7c155103347ec",
+    "url": "css/2.662cbfca.css"
   },
   {
-    "revision": "a753a379c583f6218bc2",
+    "revision": "dec5c2baa3b34d51eb8c",
     "url": "css/app.66d806c5.css"
   },
   {
@@ -48,32 +48,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/18650holder.94163390.png"
   },
   {
-    "revision": "5e611c2a6e3a0360c8372982fb6f715c",
-    "url": "img/HowFront.5e611c2a.svg"
+    "revision": "60b2c16bb43e8acdc1e5ef07dc0fa397",
+    "url": "img/HowFront.60b2c16b.svg"
   },
   {
-    "revision": "975b633e1d477d01bdbc00f5e58bee10",
-    "url": "img/HowGetData.975b633e.svg"
+    "revision": "92df27bf3c3cd37beb99d4bc2bfc4fba",
+    "url": "img/HowGetData.92df27bf.svg"
   },
   {
-    "revision": "faf3b8d1874acdbcdf123c0bfa358518",
-    "url": "img/HowPOST.faf3b8d1.svg"
+    "revision": "ad156660343b3885030681983379de55",
+    "url": "img/HowPOST.ad156660.svg"
   },
   {
-    "revision": "5ae9ff4b027569b978f202f1cda7724a",
-    "url": "img/MeteoSteps.5ae9ff4b.svg"
+    "revision": "6908fe2f90b8d5275e2d2f6930cba8f9",
+    "url": "img/MeteoSteps.6908fe2f.svg"
   },
   {
     "revision": "f0cf7b44112908b21ba582da94c7a496",
     "url": "img/app-logo-128x128.f0cf7b44.png"
   },
   {
-    "revision": "29c72afc7f5f452c46d6b0e2d33ac01b",
-    "url": "img/arduino.29c72afc.svg"
+    "revision": "567c93ee6d834199d3a5ecb4cdaa6abd",
+    "url": "img/arduino.567c93ee.svg"
   },
   {
-    "revision": "e41a831c41d1de14854195ff8bbdf9c9",
-    "url": "img/backend.e41a831c.svg"
+    "revision": "ed3763af70d4d98e8399e5f19495b474",
+    "url": "img/backend.ed3763af.svg"
   },
   {
     "revision": "c08dc6026210cced1d9dc5d3670b3b17",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/desktop-tv.b8b675aa.png"
   },
   {
-    "revision": "2f2e24206103c96c2763b79833e033d0",
-    "url": "img/how.2f2e2420.svg"
+    "revision": "d36dd9cc11220739cc01a33724719ff2",
+    "url": "img/how.d36dd9cc.svg"
   },
   {
     "revision": "26920aa31a55e898f4f5e03fc99e3c64",
@@ -108,48 +108,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/wemos.292791fb.png"
   },
   {
-    "revision": "1723ce0f9dd9f6797e9ede7158b4d6ba",
+    "revision": "dad1745c310641d9a12fff86721ebe50",
     "url": "index.html"
   },
   {
-    "revision": "05222a1b2327f3a2294b",
-    "url": "js/2.05222a1b.js"
+    "revision": "98ebbbf7c155103347ec",
+    "url": "js/2.98ebbbf7.js"
   },
   {
-    "revision": "c2e7da4eebdfdacf75a6",
-    "url": "js/3.c2e7da4e.js"
+    "revision": "a35bd6785319fe9ec44f",
+    "url": "js/3.a35bd678.js"
   },
   {
-    "revision": "43723cc3251749b0f061",
-    "url": "js/4.43723cc3.js"
+    "revision": "3afbe7d53bc79c8cf336",
+    "url": "js/4.3afbe7d5.js"
   },
   {
-    "revision": "106c8f88f8b67a86ee18",
-    "url": "js/5.106c8f88.js"
+    "revision": "47409657af5498a1387f",
+    "url": "js/5.47409657.js"
   },
   {
-    "revision": "57bb26b22080c8334fb9",
-    "url": "js/6.57bb26b2.js"
+    "revision": "64f8652fb50aac775124",
+    "url": "js/6.64f8652f.js"
   },
   {
-    "revision": "825b6942ace31485c734",
-    "url": "js/7.825b6942.js"
+    "revision": "ebfd22336502149f41e5",
+    "url": "js/7.ebfd2233.js"
   },
   {
-    "revision": "743560e18059a69b58a2",
-    "url": "js/8.743560e1.js"
+    "revision": "837bfe029592eae7ff4d",
+    "url": "js/8.837bfe02.js"
   },
   {
-    "revision": "4a9dee7ce07a688eb718",
-    "url": "js/9.4a9dee7c.js"
+    "revision": "af1c577bdd5407e0a148",
+    "url": "js/9.af1c577b.js"
   },
   {
-    "revision": "a753a379c583f6218bc2",
-    "url": "js/app.0ee662fc.js"
+    "revision": "dec5c2baa3b34d51eb8c",
+    "url": "js/app.3a557591.js"
   },
   {
-    "revision": "6c8ce873bf4b8a3d5d59",
-    "url": "js/vendor.6c8ce873.js"
+    "revision": "d249a26134ab26317d70",
+    "url": "js/vendor.d249a261.js"
   },
   {
     "revision": "f550a4ee0e7cb37070e7982238859892",
@@ -164,23 +164,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "statics/18650holder.png"
   },
   {
-    "revision": "2f2e24206103c96c2763b79833e033d0",
+    "revision": "d36dd9cc11220739cc01a33724719ff2",
     "url": "statics/How.svg"
   },
   {
-    "revision": "5e611c2a6e3a0360c8372982fb6f715c",
+    "revision": "60b2c16bb43e8acdc1e5ef07dc0fa397",
     "url": "statics/HowFront.svg"
   },
   {
-    "revision": "975b633e1d477d01bdbc00f5e58bee10",
+    "revision": "92df27bf3c3cd37beb99d4bc2bfc4fba",
     "url": "statics/HowGetData.svg"
   },
   {
-    "revision": "faf3b8d1874acdbcdf123c0bfa358518",
+    "revision": "ad156660343b3885030681983379de55",
     "url": "statics/HowPOST.svg"
   },
   {
-    "revision": "5ae9ff4b027569b978f202f1cda7724a",
+    "revision": "6908fe2f90b8d5275e2d2f6930cba8f9",
     "url": "statics/MeteoSteps.svg"
   },
   {
@@ -188,11 +188,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "statics/app-logo-128x128.png"
   },
   {
-    "revision": "29c72afc7f5f452c46d6b0e2d33ac01b",
+    "revision": "567c93ee6d834199d3a5ecb4cdaa6abd",
     "url": "statics/arduino.svg"
   },
   {
-    "revision": "e41a831c41d1de14854195ff8bbdf9c9",
+    "revision": "ed3763af70d4d98e8399e5f19495b474",
     "url": "statics/backend.svg"
   },
   {
