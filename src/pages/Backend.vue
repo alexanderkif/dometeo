@@ -13,7 +13,12 @@
       </div>
       <div class="q-pa-md text-center">{{ $t('backend.h2') }}</div>
       <div class="full-width flex flex-center q-pa-md">
-        <q-img
+        <q-img v-if="this.$i18n.locale === 'ru'"
+          class="rounded-borders"
+          src="../statics/MeteoStepsRU.svg"
+          spinner-color="secondary"
+        ></q-img>
+        <q-img v-else
           class="rounded-borders"
           src="../statics/MeteoSteps.svg"
           spinner-color="secondary"
