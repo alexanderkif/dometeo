@@ -13,7 +13,8 @@ export default {
     nav4: ['More about', 'backend'],
     nav5: ['More about', 'arduino'],
     nav6: ['More about', 'frontend'],
-    nav7: ['What sensors', 'are there?']
+    nav7: ['What sensors', 'are there?'],
+    nav8: ['Donate to', 'the project']
   },
   home: {
     h1: 'Do you want to easily and effortlessly introduce yourself or your child to modern web programming with a backend on Node.js and a frontend on Vue / Quasar, and learn to know how to use arduino microcontrollers? You will come closer to understanding if you repeat this project of an external autonomous Wi-Fi weather station with solar batteries or implement your own idea with other sensors.',
@@ -80,8 +81,8 @@ export default {
     li3: ['Install ', 'Git', '. Git is needed to work with GitHub.'],
     li4: ['Fork into your github ', 'https://github.com/alexanderkif/meteo', ' (Fork button) and clone it to your computer (git clone https://github.com/yourRepository/meteo.git command).'],
     li5: ['Register for ', 'Mongo DB', '. Here will be located the Database for our Backend application.'],
-    li6: ['Register at ', 'Zeit.co (Now) "Continue with GitHub"', '. Our Backend app from GitHub will automatically launch there.'],
-    li7: 'Create a new project on Zeit.co. Bind it to your meteo repository on GitHub (GIT INTEGRATION). Add database uri to environment variables.',
+    li6: ['Register at ', 'Zeit.co (Now) "Continue with GitHub"', '. Our Backend app from GitHub will automatically launch there. Install Now CLI.'],
+    li7: 'Create a new project on Zeit.co. Bind it to your meteo repository on GitHub (GIT INTEGRATION). Add to the environment variables db-uri (database uri) and my-key (your access password to the database record, the same must be in Arduino). Examples: "now secrets add my-key mysuperkey", "now secrets add db-uri mongodb + srv: // user: db@cluster0-qbirv.mongodb.net/db? RetryWrites = true" (copy your uri from your MongoDB ).',
     li8: 'Flash the Wemos / Arduino board. Look in the menu "MORE ABOUT ARDUINO".',
     li9: 'Install ',
     li10: 'Install ',
