@@ -35,7 +35,7 @@
     <div class="q-my-md">
       <a href="https://s.click.aliexpress.com/e/_eLK6kT" target="_blank" class="text-white">
         <img width="190" src="../statics/18650.png"/>
-        <span style="display:block;">аккумулятор 18650</span>
+        <span style="display:block;">battery 18650</span>
       </a>
     </div>
     <div class="q-my-md">
@@ -44,7 +44,7 @@
           src="../statics/18650holder.png"
           spinner-color="secondary"
         ></q-img>
-        <span style="display:block;">держатель для аккумулятора 18650</span>
+        <span style="display:block;">holder for battery 18650</span>
       </a>
     </div>
     <div class="q-my-md">

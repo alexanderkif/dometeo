@@ -48,7 +48,6 @@
           </div>
         </q-btn>
       </div>
-      <!-- <a href="http://paypal.me/dometeo">paypal.me/dometeo</a> -->
     </q-drawer>
 
     <q-drawer show-if-above v-model="right" side="right" bordered :width="222"
@@ -131,7 +130,7 @@ export default {
         {
           color: 'pink',
           icon: 'card_giftcard',
-          link: 'https://paypal.me/dometeo?locale.x=ru_RU'
+          link: 'https://paypal.me/dometeo'
         }
       ]
     }
